@@ -21,6 +21,7 @@ function createMarkup() {
 
 function createBoxes(amount) {
   input.value = "";
+  box.innerHTML = "";
   const arr = [];
   for (let i = 0; i < amount; i++) {
     const myBox = document.createElement("div");
